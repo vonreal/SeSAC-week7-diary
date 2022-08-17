@@ -62,6 +62,33 @@ class CodeSnapViewController: UIViewController {
                 
         [photoImageView, titleTextField, dateTextField, contentTextView].forEach { view.addSubview($0) }
         
+        photoImageView.snp.makeConstraints { make in
+            make.top.equalTo(view.safeAreaLayoutGuide)
+            make.leadingMargin.equalTo(20)
+            make.trailingMargin.equalTo(-20)
+            make.height.equalTo(view).multipliedBy(0.35)
+        }
+        
+        titleTextField.snp.makeConstraints { make in
+            make.top.equalTo(photoImageView.snp.bottom).offset(20)
+            make.leadingMargin.equalTo(20)
+            make.trailingMargin.equalTo(-20)
+            make.height.equalTo(50)
+        }
+        
+        dateTextField.snp.makeConstraints { make in
+            make.top.equalTo(titleTextField.snp.bottom).offset(20)
+            make.leadingMargin.equalTo(20)
+            make.trailingMargin.equalTo(-20)
+            make.height.equalTo(50)
+        }
+        
+        contentTextView.snp.makeConstraints { make in
+            make.top.equalTo(dateTextField.snp.bottom).offset(20)
+            make.leadingMargin.equalTo(20)
+            make.trailingMargin.equalTo(-20)
+            make.bottom.equalTo(view.safeAreaLayoutGuide)
+        }
         
         //         for - in(한번씩 순회한다) vs forEach(고차함수) -> 과제
         //        view.addSubview(photoImageView)
