@@ -10,6 +10,7 @@
 		76778D6D28AC81B100685A6A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 76778D6C28AC81B100685A6A /* SnapKit */; };
 		76778D7228AC823E00685A6A /* CodeSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7128AC823E00685A6A /* CodeSnapViewController.swift */; };
 		76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */; };
+		76778D7628AD1F3000685A6A /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7528AD1F3000685A6A /* CodeViewController.swift */; };
 		76F77CC828AB8910004FE79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F77CC728AB8910004FE79D /* AppDelegate.swift */; };
 		76F77CCA28AB8910004FE79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F77CC928AB8910004FE79D /* SceneDelegate.swift */; };
 		76F77CCC28AB8910004FE79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F77CCB28AB8910004FE79D /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		76778D7128AC823E00685A6A /* CodeSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnapViewController.swift; sourceTree = "<group>"; };
 		76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
+		76778D7528AD1F3000685A6A /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		76F77CC428AB8910004FE79D /* SeSAC-week7-diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC-week7-diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F77CC728AB8910004FE79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F77CC928AB8910004FE79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				76778D7128AC823E00685A6A /* CodeSnapViewController.swift */,
 				76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */,
+				76778D7528AD1F3000685A6A /* CodeViewController.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				76F77CFA28AB9419004FE79D /* SecondViewController.swift in Sources */,
 				76F77CF828AB9412004FE79D /* FirstViewController.swift in Sources */,
 				76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */,
+				76778D7628AD1F3000685A6A /* CodeViewController.swift in Sources */,
 				76F77CCC28AB8910004FE79D /* ViewController.swift in Sources */,
 				76778D7228AC823E00685A6A /* CodeSnapViewController.swift in Sources */,
 				76F77D6E28ABEDDF004FE79D /* ThirdViewController.swift in Sources */,
