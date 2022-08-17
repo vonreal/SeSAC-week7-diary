@@ -9,6 +9,7 @@ import UIKit
 
 class WalkThroughPageViewController: UIPageViewController {
 
+    // 뷰컨트롤러 배열
     var pageViewControllerList: [UIViewController] = []
     
     override func viewDidLoad() {
@@ -21,20 +22,22 @@ class WalkThroughPageViewController: UIPageViewController {
         configurePageViewControlelr()
     }
     
+    // 배열에 뷰컨트롤러 추가
     func createPageViewController() {
         let sb = UIStoryboard(name: "WalkThrough", bundle: nil)
         let vc1 = sb.instantiateViewController(withIdentifier: FirstViewController.reuseIdentifier) as! FirstViewController
         let vc2 = sb.instantiateViewController(withIdentifier: SecondViewController.reuseIdentifier) as! SecondViewController
+        let vc3 = sb.instantiateViewController(withIdentifier: ThirdViewController.reuseIdentifier) as! ThirdViewController
         
-        pageViewControllerList = [vc1, vc2]
+        pageViewControllerList = [vc1, vc2, vc3]
     }
     
     func configurePageViewControlelr() {
         delegate = self
         dataSource = self
         
+        // display, 시작점 묘사
         guard let first = pageViewControllerList.first else { return }
-        
         setViewControllers([first], direction: .forward, animated: true)
     }
 }
@@ -68,14 +71,14 @@ extension WalkThroughPageViewController: UIPageViewControllerDelegate, UIPageVie
 //    //페이지 변경방식이 페이지컬이면 페이지컨트롤 표기안됨
 //
 //    //페이지컨트롤의 페이지 몇개 나타낼지
-//    func presentationCount(for pageViewController: UIPageViewController) -> Int {
-//        return pageViewControllerList.count
-//    }
+    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+        return pageViewControllerList.count
+    }
 //
 //    //몇번째 페이지인지
-//    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
-//        guard let first = viewControllers?.first, let index = pageViewControllerList.firstIndex(of: first) else { return 0 }
-//
-//        return index
-//    }
+    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+        guard let first = viewControllers?.first, let index = pageViewControllerList.firstIndex(of: first) else { return 0 }
+
+        return index
+    }
 }

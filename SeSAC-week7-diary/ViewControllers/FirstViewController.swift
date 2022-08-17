@@ -14,6 +14,7 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var blackViewWidth: NSLayoutConstraint!
     
+    @IBOutlet weak var exView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +25,7 @@ class FirstViewController: UIViewController {
             일기 씁시다
             잘써 봅시다
         """
+        
         
         UIView.animate(withDuration: 3) {
             self.tutorialLabel.alpha = 1
@@ -38,8 +40,9 @@ class FirstViewController: UIViewController {
  
     func animateBlackView() {
         UIView.animate(withDuration: 2) {
-            self.blackViewWidth.constant += 250
+            self.blackView.transform = CGAffineTransform(scaleX: 2, y: 1)
             self.blackView.alpha = 1
+            self.exView.transform = CGAffineTransform(translationX: 1000, y: 0)
         } completion: { _ in
             print("Complete")
         }

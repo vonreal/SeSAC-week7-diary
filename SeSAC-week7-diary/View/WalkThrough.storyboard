@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qUX-g2-iih">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="082-R7-aHU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,6 +8,21 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="8BF-mc-L4D">
+            <objects>
+                <viewController id="082-R7-aHU" customClass="ViewController" customModule="SeSAC_week7_diary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ijh-oZ-H0z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="kVT-ew-Dro"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPZ-4w-Nu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-287" y="177"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="fQt-gq-KoB">
             <objects>
@@ -22,7 +37,7 @@
                                     <constraint firstAttribute="height" constant="200" id="U7d-qu-6Is"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="QYx-to-UeT" kind="embed" id="8ku-7q-7Ik"/>
+                                    <segue destination="Ifb-Oi-Df8" kind="embed" id="uv6-Ur-Iaa"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -42,10 +57,18 @@
         <!--Walk Through Page View Controller-->
         <scene sceneID="E4G-Bo-oUY">
             <objects>
-                <viewController storyboardIdentifier="WalkThroughPageViewController" id="QYx-to-UeT" customClass="WalkThroughPageViewController" customModule="SeSAC_week7_diary" customModuleProvider="target" sceneMemberID="viewController"/>
+                <viewController storyboardIdentifier="WalkThroughPageViewController" modalTransitionStyle="crossDissolve" id="QYx-to-UeT" customClass="WalkThroughPageViewController" customModule="SeSAC_week7_diary" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kH0-nP-SFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1404" y="157"/>
+            <point key="canvasLocation" x="1341" y="-169"/>
+        </scene>
+        <!--Walk Through Page View Controller-->
+        <scene sceneID="hWB-Vf-lNC">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Ifb-Oi-Df8" customClass="WalkThroughPageViewController" customModule="SeSAC_week7_diary" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fxq-Tn-alW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1424" y="264"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="vg1-2P-hSv">
@@ -72,13 +95,23 @@
                                     <constraint firstAttribute="height" constant="5" id="kVk-eq-1zL"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Fj-eA-6HQ">
+                                <rect key="frame" x="182" y="423" width="50" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="5XD-kB-pxj"/>
+                                    <constraint firstAttribute="width" constant="50" id="pTn-6m-M8b"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VTq-Tr-EMk"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                         <constraints>
                             <constraint firstItem="yib-eS-fFp" firstAttribute="centerX" secondItem="gsZ-eU-5Bg" secondAttribute="centerX" id="C7f-Qd-xIr"/>
+                            <constraint firstItem="9Fj-eA-6HQ" firstAttribute="centerX" secondItem="gsZ-eU-5Bg" secondAttribute="centerX" id="md1-iZ-CoJ"/>
                             <constraint firstItem="VTq-Tr-EMk" firstAttribute="trailing" secondItem="pcr-vm-QcP" secondAttribute="trailing" constant="30" id="sUG-3y-rK2"/>
                             <constraint firstItem="pcr-vm-QcP" firstAttribute="leading" secondItem="VTq-Tr-EMk" secondAttribute="leading" constant="30" id="uAW-nN-bYW"/>
+                            <constraint firstItem="9Fj-eA-6HQ" firstAttribute="centerY" secondItem="gsZ-eU-5Bg" secondAttribute="centerY" id="vCz-qg-icB"/>
                             <constraint firstItem="pcr-vm-QcP" firstAttribute="top" secondItem="VTq-Tr-EMk" secondAttribute="top" constant="30" id="vve-9T-HTl"/>
                             <constraint firstItem="yib-eS-fFp" firstAttribute="top" secondItem="pcr-vm-QcP" secondAttribute="bottom" constant="8" id="zkA-gJ-hBr"/>
                         </constraints>
@@ -86,6 +119,7 @@
                     <connections>
                         <outlet property="blackView" destination="yib-eS-fFp" id="bL6-YR-ydf"/>
                         <outlet property="blackViewWidth" destination="Atd-c6-btW" id="XDa-TP-zAy"/>
+                        <outlet property="exView" destination="9Fj-eA-6HQ" id="g5Q-nd-oHb"/>
                         <outlet property="tutorialLabel" destination="pcr-vm-QcP" id="FoU-EU-HjX"/>
                     </connections>
                 </viewController>
@@ -108,6 +142,21 @@
             </objects>
             <point key="canvasLocation" x="2862" y="190"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="2nO-GO-WN5">
+            <objects>
+                <viewController storyboardIdentifier="ThirdViewController" id="mxi-p4-ZkP" customClass="ThirdViewController" customModule="SeSAC_week7_diary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iZK-A8-v9j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="oik-6B-pfI"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DQt-Z4-oSC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3607" y="190"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
@@ -118,6 +167,9 @@
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

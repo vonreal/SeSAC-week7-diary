@@ -32,6 +32,10 @@ class ViewController: UIViewController {
         
 //      [ framework - webViewControlelr ]
 //        OpenWebView.presentWebViewController(self, url: "https://www.apple.com", transitionStyle: .present)
+        
+        let vc = CodeSnapViewController()
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true)
     }
 
 }
