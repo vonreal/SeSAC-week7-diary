@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762674AA28ADDF3C00579221 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762674A928ADDF3C00579221 /* UIViewController+Extension.swift */; };
+		762674AC28ADE5FE00579221 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762674AB28ADE5FE00579221 /* ProfileViewController.swift */; };
 		76778D6D28AC81B100685A6A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 76778D6C28AC81B100685A6A /* SnapKit */; };
 		76778D7228AC823E00685A6A /* CodeSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7128AC823E00685A6A /* CodeSnapViewController.swift */; };
 		76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */; };
@@ -57,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		762674A928ADDF3C00579221 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		762674AB28ADE5FE00579221 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		76778D7128AC823E00685A6A /* CodeSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnapViewController.swift; sourceTree = "<group>"; };
 		76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
 		76778D7528AD1F3000685A6A /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		762674A628ADDF2A00579221 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				762674A928ADDF3C00579221 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		76778D7028AC822700685A6A /* CodeBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 		76F77CC628AB8910004FE79D /* SeSAC-week7-diary */ = {
 			isa = PBXGroup;
 			children = (
+				762674A628ADDF2A00579221 /* Extension */,
 				76778D7028AC822700685A6A /* CodeBase */,
 				76F77CD528AB8910004FE79D /* Info.plist */,
 				76F77CC728AB8910004FE79D /* AppDelegate.swift */,
@@ -163,6 +176,7 @@
 				76F77CF728AB9412004FE79D /* FirstViewController.swift */,
 				76F77CF928AB9419004FE79D /* SecondViewController.swift */,
 				76F77D6D28ABEDDF004FE79D /* ThirdViewController.swift */,
+				762674AB28ADE5FE00579221 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -269,10 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F77CFA28AB9419004FE79D /* SecondViewController.swift in Sources */,
+				762674AA28ADDF3C00579221 /* UIViewController+Extension.swift in Sources */,
 				76F77CF828AB9412004FE79D /* FirstViewController.swift in Sources */,
 				76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */,
 				76778D7628AD1F3000685A6A /* CodeViewController.swift in Sources */,
 				76F77CCC28AB8910004FE79D /* ViewController.swift in Sources */,
+				762674AC28ADE5FE00579221 /* ProfileViewController.swift in Sources */,
 				76778D7228AC823E00685A6A /* CodeSnapViewController.swift in Sources */,
 				76F77D6E28ABEDDF004FE79D /* ThirdViewController.swift in Sources */,
 				76F77CC828AB8910004FE79D /* AppDelegate.swift in Sources */,

@@ -8,35 +8,44 @@
 import UIKit
 import SeSACFramework
 
+import SnapKit
+
 class ViewController: UIViewController {
 
+    let nameButton: UIButton = {
+        let view = UIButton()
+        view.setTitle("닉네임", for: .normal)
+        view.tintColor = .black
+        view.backgroundColor = .lightGray
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configure()
+        
+        nameButton.addTarget(self, action: #selector(nameButtonClicked), for: .touchUpInside)
     }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-//        testOpen()
-
-//        [ framework - alert ]
-//        showSesacAlert(title: "test alert", message: "test message", buttonTitle: "Change Color") { _ in
-//            self.view.backgroundColor = .lightGray
-//        }
+    
+    @objc func nameButtonClicked() {
         
-//        [ framework - activityViewController ]
-//        let image = UIImage(systemName: "star.fill")!
-//        let shareURL = "https://www.apple.com"
-//        let shareText = "WWDC What's New!"
-//        sesacShowActivityViewController(shareImage: image, shareURL: shareURL, shareText: shareText)
+        let vc = ProfileViewController()
         
-//      [ framework - webViewControlelr ]
-//        OpenWebView.presentWebViewController(self, url: "https://www.apple.com", transitionStyle: .present)
+        vc.saveButtonActionHandler = {
+            self.nameButton.setTitle(vc.nameTextField.text, for: .normal)
+        }
         
-        let vc = CodeViewController()
-        vc.modalPresentationStyle = .overFullScreen
         present(vc, animated: true)
     }
-
+    
+    func configure() {
+        view.addSubview(nameButton)
+        
+        nameButton.snp.makeConstraints { make in
+            make.width.height.equalTo(200)
+            make.center.equalTo(view)
+        }
+    }
 }
 
