@@ -7,7 +7,7 @@
 - 개선점 1) 백그라운드 이미지는 각 속성에서의 addView로 처리해보자. <br>
 
 <br>
-<img src="https://user-images.githubusercontent.com/50474006/185631192-483359e9-ebf0-4576-a0b5-4948f6768107.png](https://user-images.githubusercontent.com/50474006/185631581-5f8d4a33-86cc-4c7e-8c29-620b7cc65999.png)" width="400" height="800"/>
+<img src="https://user-images.githubusercontent.com/50474006/185631192-483359e9-ebf0-4576-a0b5-4948f6768107.png" width="400" height="800"/>
 - 문제점 1) 스택뷰를 코드로 사용이 안됨. 자꾸 UIView만 넣으라고 함. addView로 넣었는데 스택뷰의 제약조건들이 안먹힘
 - 문제점 2) 로그인 기능 구현을 좀 더 개선해야함. 일단은 회원가입 누르면 바로 메인 뷰로 이동하게 함<br>
 
