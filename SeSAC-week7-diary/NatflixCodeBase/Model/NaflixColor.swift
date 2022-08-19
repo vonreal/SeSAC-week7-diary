@@ -8,5 +8,6 @@
 import UIKit
 
 enum NaflixColor {
-    static let defaultColor = UIColor(named: "DefaultColor")
+    static let MainColor = UIColor(named: "MainColor")
+    static let TextFieldBackgroundColor = UIColor(named: "TextFieldBackgroundColor")
 }

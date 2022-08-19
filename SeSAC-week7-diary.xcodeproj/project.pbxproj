@@ -22,6 +22,9 @@
 		7690600628AF7F3000828DA6 /* NaflixColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600528AF7F3000828DA6 /* NaflixColor.swift */; };
 		7690600828AF843500828DA6 /* NaflixImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600728AF843500828DA6 /* NaflixImage.swift */; };
 		7690600A28AF909F00828DA6 /* PreviewUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600928AF909F00828DA6 /* PreviewUIImageView.swift */; };
+		7690600C28AFAF0200828DA6 /* NaflixLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600B28AFAF0200828DA6 /* NaflixLoginView.swift */; };
+		7690600E28AFAF0C00828DA6 /* NaflixLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600D28AFAF0C00828DA6 /* NaflixLoginViewController.swift */; };
+		7690601028AFB25D00828DA6 /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600F28AFB25D00828DA6 /* UserTextField.swift */; };
 		76F5E12128AF1292006C2422 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12028AF1292006C2422 /* BaseViewController.swift */; };
 		76F5E12428AF1442006C2422 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12328AF1442006C2422 /* WriteViewController.swift */; };
 		76F5E12628AF169F006C2422 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12528AF169F006C2422 /* BaseView.swift */; };
@@ -87,6 +90,9 @@
 		7690600528AF7F3000828DA6 /* NaflixColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixColor.swift; sourceTree = "<group>"; };
 		7690600728AF843500828DA6 /* NaflixImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixImage.swift; sourceTree = "<group>"; };
 		7690600928AF909F00828DA6 /* PreviewUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUIImageView.swift; sourceTree = "<group>"; };
+		7690600B28AFAF0200828DA6 /* NaflixLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixLoginView.swift; sourceTree = "<group>"; };
+		7690600D28AFAF0C00828DA6 /* NaflixLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixLoginViewController.swift; sourceTree = "<group>"; };
+		7690600F28AFB25D00828DA6 /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 		76F5E12028AF1292006C2422 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		76F5E12328AF1442006C2422 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
 		76F5E12528AF169F006C2422 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				76905FF428AF6AFA00828DA6 /* NaflixMainViewController.swift */,
+				7690600D28AFAF0C00828DA6 /* NaflixLoginViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -161,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				76905FFA28AF6B4600828DA6 /* NaflixMainView.swift */,
+				7690600B28AFAF0200828DA6 /* NaflixLoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 			children = (
 				7690600228AF7B6600828DA6 /* WhiteFontUIButton.swift */,
 				7690600928AF909F00828DA6 /* PreviewUIImageView.swift */,
+				7690600F28AFB25D00828DA6 /* UserTextField.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -401,6 +410,7 @@
 				76905FF928AF6B3E00828DA6 /* NaflixBaseView.swift in Sources */,
 				7690600828AF843500828DA6 /* NaflixImage.swift in Sources */,
 				76F77CF828AB9412004FE79D /* FirstViewController.swift in Sources */,
+				7690601028AFB25D00828DA6 /* UserTextField.swift in Sources */,
 				76F5E12428AF1442006C2422 /* WriteViewController.swift in Sources */,
 				76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */,
 				76905FF328AF6A2A00828DA6 /* NaflixBaseViewController.swift in Sources */,
@@ -411,6 +421,8 @@
 				76F5E12C28AF2CF6006C2422 /* BlackRadiusTextField.swift in Sources */,
 				76778D7228AC823E00685A6A /* CodeSnapViewController.swift in Sources */,
 				7690600628AF7F3000828DA6 /* NaflixColor.swift in Sources */,
+				7690600C28AFAF0200828DA6 /* NaflixLoginView.swift in Sources */,
+				7690600E28AFAF0C00828DA6 /* NaflixLoginViewController.swift in Sources */,
 				76905FFB28AF6B4600828DA6 /* NaflixMainView.swift in Sources */,
 				76F77D6E28ABEDDF004FE79D /* ThirdViewController.swift in Sources */,
 				76F5E12628AF169F006C2422 /* BaseView.swift in Sources */,

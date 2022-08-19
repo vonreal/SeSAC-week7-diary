@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: scene)
-        let vc = NaflixMainViewController()
+        let vc = NaflixLoginViewController()
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
     }
