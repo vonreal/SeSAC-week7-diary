@@ -26,16 +26,31 @@ class ViewController: UIViewController {
         configure()
         
         nameButton.addTarget(self, action: #selector(nameButtonClicked), for: .touchUpInside)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(saveButtonNotificationObserver(notification:)), name: Notification.Name("saveButtonNotification"), object: nil)
+    }
+    
+    @objc func saveButtonNotificationObserver(notification: NSNotification) {
+        if let name = notification.userInfo?["name"] as? String {
+            self.nameButton.setTitle(name, for: .normal)
+        }
+        if let value = notification.userInfo?["value"] as? Int {
+            print(value)
+        }
     }
     
     @objc func nameButtonClicked() {
         
+//        let vc = WriteViewController()
+//
+//        present(vc, animated: true)
+        
         let vc = ProfileViewController()
-        
-        vc.saveButtonActionHandler = {
-            self.nameButton.setTitle(vc.nameTextField.text, for: .normal)
+
+        vc.saveButtonActionHandler = { name in
+            self.nameButton.setTitle(name, for: .normal)
         }
-        
+
         present(vc, animated: true)
     }
     

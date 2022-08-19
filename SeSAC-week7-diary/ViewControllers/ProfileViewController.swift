@@ -28,13 +28,16 @@ class ProfileViewController: UIViewController {
         return view
     }()
     
-    var saveButtonActionHandler: (() -> ())?
+    var saveButtonActionHandler: ((String) -> ())?
     
     @objc func saveButtonClicked() {
         
-        // 값 전달 기능 실행 => 클로저 구문 활용
-        saveButtonActionHandler?()
+//        1. 클로저 사용해서 값 전달
+//        값 전달 기능 실행 => 클로저 구문 활용
+//        saveButtonActionHandler?(nameTextField.text!)
         
+//        2. Notification 사용해서 값 전달
+        NotificationCenter.default.post(name: Notification.Name("saveButtonNotification"), object: nil, userInfo: ["name": nameTextField.text!, "value": 123456])
         
         // 화면 Dismiss
         dismiss(animated: true)

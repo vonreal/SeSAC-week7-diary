@@ -14,6 +14,19 @@
 		76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */; };
 		76778D7628AD1F3000685A6A /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76778D7528AD1F3000685A6A /* CodeViewController.swift */; };
 		767E6A3C28AE41B0007C8E85 /* KakaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767E6A3B28AE41B0007C8E85 /* KakaoViewController.swift */; };
+		76905FF328AF6A2A00828DA6 /* NaflixBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76905FF228AF6A2A00828DA6 /* NaflixBaseViewController.swift */; };
+		76905FF528AF6AFA00828DA6 /* NaflixMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76905FF428AF6AFA00828DA6 /* NaflixMainViewController.swift */; };
+		76905FF928AF6B3E00828DA6 /* NaflixBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76905FF828AF6B3E00828DA6 /* NaflixBaseView.swift */; };
+		76905FFB28AF6B4600828DA6 /* NaflixMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76905FFA28AF6B4600828DA6 /* NaflixMainView.swift */; };
+		7690600328AF7B6600828DA6 /* WhiteFontUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600228AF7B6600828DA6 /* WhiteFontUIButton.swift */; };
+		7690600628AF7F3000828DA6 /* NaflixColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600528AF7F3000828DA6 /* NaflixColor.swift */; };
+		7690600828AF843500828DA6 /* NaflixImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600728AF843500828DA6 /* NaflixImage.swift */; };
+		7690600A28AF909F00828DA6 /* PreviewUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7690600928AF909F00828DA6 /* PreviewUIImageView.swift */; };
+		76F5E12128AF1292006C2422 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12028AF1292006C2422 /* BaseViewController.swift */; };
+		76F5E12428AF1442006C2422 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12328AF1442006C2422 /* WriteViewController.swift */; };
+		76F5E12628AF169F006C2422 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12528AF169F006C2422 /* BaseView.swift */; };
+		76F5E12828AF179C006C2422 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12728AF179C006C2422 /* WriteView.swift */; };
+		76F5E12C28AF2CF6006C2422 /* BlackRadiusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F5E12B28AF2CF6006C2422 /* BlackRadiusTextField.swift */; };
 		76F77CC828AB8910004FE79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F77CC728AB8910004FE79D /* AppDelegate.swift */; };
 		76F77CCA28AB8910004FE79D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F77CC928AB8910004FE79D /* SceneDelegate.swift */; };
 		76F77CCC28AB8910004FE79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F77CCB28AB8910004FE79D /* ViewController.swift */; };
@@ -66,6 +79,19 @@
 		76778D7328AC8C1200685A6A /* CodeSnap2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSnap2ViewController.swift; sourceTree = "<group>"; };
 		76778D7528AD1F3000685A6A /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		767E6A3B28AE41B0007C8E85 /* KakaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoViewController.swift; sourceTree = "<group>"; };
+		76905FF228AF6A2A00828DA6 /* NaflixBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixBaseViewController.swift; sourceTree = "<group>"; };
+		76905FF428AF6AFA00828DA6 /* NaflixMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixMainViewController.swift; sourceTree = "<group>"; };
+		76905FF828AF6B3E00828DA6 /* NaflixBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixBaseView.swift; sourceTree = "<group>"; };
+		76905FFA28AF6B4600828DA6 /* NaflixMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixMainView.swift; sourceTree = "<group>"; };
+		7690600228AF7B6600828DA6 /* WhiteFontUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteFontUIButton.swift; sourceTree = "<group>"; };
+		7690600528AF7F3000828DA6 /* NaflixColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixColor.swift; sourceTree = "<group>"; };
+		7690600728AF843500828DA6 /* NaflixImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaflixImage.swift; sourceTree = "<group>"; };
+		7690600928AF909F00828DA6 /* PreviewUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewUIImageView.swift; sourceTree = "<group>"; };
+		76F5E12028AF1292006C2422 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		76F5E12328AF1442006C2422 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		76F5E12528AF169F006C2422 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		76F5E12728AF179C006C2422 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
+		76F5E12B28AF2CF6006C2422 /* BlackRadiusTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackRadiusTextField.swift; sourceTree = "<group>"; };
 		76F77CC428AB8910004FE79D /* SeSAC-week7-diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC-week7-diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F77CC728AB8910004FE79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76F77CC928AB8910004FE79D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +138,88 @@
 			path = CodeBase;
 			sourceTree = "<group>";
 		};
+		76905FF128AF68C300828DA6 /* NatflixCodeBase */ = {
+			isa = PBXGroup;
+			children = (
+				7690600428AF7F1E00828DA6 /* Model */,
+				7690600028AF7B1300828DA6 /* Utility */,
+				76905FF728AF6B2E00828DA6 /* View */,
+				76905FF628AF6B2300828DA6 /* ViewControllers */,
+			);
+			path = NatflixCodeBase;
+			sourceTree = "<group>";
+		};
+		76905FF628AF6B2300828DA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76905FF428AF6AFA00828DA6 /* NaflixMainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		76905FF728AF6B2E00828DA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76905FFA28AF6B4600828DA6 /* NaflixMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7690600028AF7B1300828DA6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7690600128AF7B2500828DA6 /* CustomView */,
+				76905FF828AF6B3E00828DA6 /* NaflixBaseView.swift */,
+				76905FF228AF6A2A00828DA6 /* NaflixBaseViewController.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7690600128AF7B2500828DA6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				7690600228AF7B6600828DA6 /* WhiteFontUIButton.swift */,
+				7690600928AF909F00828DA6 /* PreviewUIImageView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		7690600428AF7F1E00828DA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7690600528AF7F3000828DA6 /* NaflixColor.swift */,
+				7690600728AF843500828DA6 /* NaflixImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76F5E11F28AF127C006C2422 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E12A28AF2CD7006C2422 /* CustomView */,
+				76F5E12028AF1292006C2422 /* BaseViewController.swift */,
+				76F5E12528AF169F006C2422 /* BaseView.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		76F5E12228AF141B006C2422 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E12328AF1442006C2422 /* WriteViewController.swift */,
+				76F5E12728AF179C006C2422 /* WriteView.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		76F5E12A28AF2CD7006C2422 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				76F5E12B28AF2CF6006C2422 /* BlackRadiusTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		76F77CBB28AB8910004FE79D = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +241,16 @@
 		76F77CC628AB8910004FE79D /* SeSAC-week7-diary */ = {
 			isa = PBXGroup;
 			children = (
-				762674A628ADDF2A00579221 /* Extension */,
-				76778D7028AC822700685A6A /* CodeBase */,
 				76F77CD528AB8910004FE79D /* Info.plist */,
 				76F77CC728AB8910004FE79D /* AppDelegate.swift */,
 				76F77CC928AB8910004FE79D /* SceneDelegate.swift */,
 				76F77CD028AB8910004FE79D /* Assets.xcassets */,
+				76778D7028AC822700685A6A /* CodeBase */,
+				76F5E12228AF141B006C2422 /* Diary */,
+				762674A628ADDF2A00579221 /* Extension */,
 				76F77CD228AB8910004FE79D /* LaunchScreen.storyboard */,
+				76905FF128AF68C300828DA6 /* NatflixCodeBase */,
+				76F5E11F28AF127C006C2422 /* Utility */,
 				76F77CE828AB899A004FE79D /* View */,
 				76F77CE928AB89B0004FE79D /* ViewControllers */,
 			);
@@ -287,17 +398,30 @@
 			files = (
 				76F77CFA28AB9419004FE79D /* SecondViewController.swift in Sources */,
 				762674AA28ADDF3C00579221 /* UIViewController+Extension.swift in Sources */,
+				76905FF928AF6B3E00828DA6 /* NaflixBaseView.swift in Sources */,
+				7690600828AF843500828DA6 /* NaflixImage.swift in Sources */,
 				76F77CF828AB9412004FE79D /* FirstViewController.swift in Sources */,
+				76F5E12428AF1442006C2422 /* WriteViewController.swift in Sources */,
 				76778D7428AC8C1300685A6A /* CodeSnap2ViewController.swift in Sources */,
+				76905FF328AF6A2A00828DA6 /* NaflixBaseViewController.swift in Sources */,
 				76778D7628AD1F3000685A6A /* CodeViewController.swift in Sources */,
+				76F5E12128AF1292006C2422 /* BaseViewController.swift in Sources */,
 				76F77CCC28AB8910004FE79D /* ViewController.swift in Sources */,
 				762674AC28ADE5FE00579221 /* ProfileViewController.swift in Sources */,
+				76F5E12C28AF2CF6006C2422 /* BlackRadiusTextField.swift in Sources */,
 				76778D7228AC823E00685A6A /* CodeSnapViewController.swift in Sources */,
+				7690600628AF7F3000828DA6 /* NaflixColor.swift in Sources */,
+				76905FFB28AF6B4600828DA6 /* NaflixMainView.swift in Sources */,
 				76F77D6E28ABEDDF004FE79D /* ThirdViewController.swift in Sources */,
+				76F5E12628AF169F006C2422 /* BaseView.swift in Sources */,
 				767E6A3C28AE41B0007C8E85 /* KakaoViewController.swift in Sources */,
+				7690600A28AF909F00828DA6 /* PreviewUIImageView.swift in Sources */,
 				76F77CC828AB8910004FE79D /* AppDelegate.swift in Sources */,
 				76F77CF428AB905D004FE79D /* WalkThroughPageViewController.swift in Sources */,
+				7690600328AF7B6600828DA6 /* WhiteFontUIButton.swift in Sources */,
 				76F77CCA28AB8910004FE79D /* SceneDelegate.swift in Sources */,
+				76F5E12828AF179C006C2422 /* WriteView.swift in Sources */,
+				76905FF528AF6AFA00828DA6 /* NaflixMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
